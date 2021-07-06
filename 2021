@@ -1,1 +1,11 @@
 
+require(LDJump)
+scenario =  " -eG 0.0 0 -eG 0.42 -100 -eG 0.5 100 "
+simulatedData = calcRegMod(nsim=100,pathToScrm=pathToScrm,scenario=scenario,pathToMs2dna=pathToMs2dna, status = T, pathLDhat = "/path/To/LDhat", pathPhi = "/path/To/Phi")
+regMod = simulatedData[[1]]
+result = LDJump(seqName = "path/To/seqName", pathLDhat = "/path/To/LDhat", pathPhi = "/path/To/Phi", segLength = 1000, alpha = 0.05, status = T, demography = F, regMod = regMod, status = T, accept = T, cores = 1)
+
+
+
+
+
