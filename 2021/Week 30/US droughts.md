@@ -3,7 +3,7 @@
 * My submission for the Week 30 TidyTuesday dataset on US droughts by county
 * I have taken inspiration from @katie_press and others with an animated visualisation
 * Data came from the U.S drought moniter website https://droughtmonitor.unl.edu/ and I have chosen dates going back to pre-COVID 2019
-![Frequency of monsters by their gender reveals a large disparity](https://github.com/CalumWatt/TidyTuesday/blob/cc49d854ae82692bbdc8d2bce447955fcfd7b3ad/2021/week29/monster%20genders.png)
+![USA droughts](https://github.com/CalumWatt/TidyTuesday/blob/8975f19ef1b20f7051820633c345b4117fec0f54/2021/Week%2030/USA%20droughts%20by%20shire.gif)
 
 
 ## let's get the libraries that we will likely need
