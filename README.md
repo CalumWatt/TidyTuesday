@@ -4,6 +4,8 @@
 
 * Erasmus exchange program - international exchanges between top 5 countires for sending and receiving students
 
+![Week 10 - Erasmus Program](https://github.com/CalumWatt/TidyTuesday/blob/main/2022/Week%2010%20-%20Erasmus%20Program/Week%2010%20-%20Erasmus%20Program.gif)
+
 ## Week 30 2021
 
 * Drought becomes pretty terrible during the summer months on the west coast of the US
