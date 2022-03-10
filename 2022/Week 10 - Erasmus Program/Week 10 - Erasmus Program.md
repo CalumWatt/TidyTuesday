@@ -14,6 +14,8 @@ library(MetBrewer)
 ```
 
 ## Download the data and perform some initial cleaning
+
+* You will need to access the Google Maps static API to extract the map. Quite simple to setup!
 ```
 data.df1 <- tidytuesdayR::tt_load('2022-03-08')
 data.df <- data.df1$erasmus
@@ -97,6 +99,7 @@ topdata$seq <- rep_len(1:2, nrow(topdata))
 * I have gone with  a colour scheme from @BlakeRMills MetBrewer package. I think this is a very good colour scheme given what the data is representing.
 ```
 europe <- get_googlemap(center = "Switzerland", zoom = 5, maptype = "roadmap", color = "bw")
+
 ggm <- ggmap(europe) + 
   geom_point(topdata,
             mapping = aes(x = lon,
