@@ -79,8 +79,6 @@ topdata$entry <- seq(1:length(topdata$Country_From))
 topdata <- topdata %>% 
   pivot_longer(cols = starts_with("Country"), names_to = "From_To", values_to = "country")
 
-register_google(key = "AIzaSyARi7zb1vWKzOe7jI5HZTNkD2xqwtIc1g0") 
-
 top_countries <- mutate_geocode(top_countries, country_name, output = "latlon")
 
 topdata <- topdata %>%
