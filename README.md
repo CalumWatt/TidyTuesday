@@ -1,5 +1,9 @@
 # TidyTuesday Data Visualisation
 
+## Week 10 2022
+
+* Erasmus exchange program - international exchanges between top 5 countires for sending and receiving students
+
 ## Week 30 2021
 
 * Drought becomes pretty terrible during the summer months on the west coast of the US
